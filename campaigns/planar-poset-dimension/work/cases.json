@@ -1,0 +1,3970 @@
+[
+  {
+    "source": {
+      "num_vars": 0,
+      "clauses": []
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": []
+    }
+  },
+  {
+    "source": {
+      "num_vars": 0,
+      "clauses": [
+        []
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": []
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": [
+        false
+      ]
+    }
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": [
+        true
+      ]
+    }
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": [
+        false
+      ]
+    }
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1,
+          -1
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": [
+        false
+      ]
+    }
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": [
+        true,
+        true
+      ]
+    }
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -2
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          1,
+          2
+        ],
+        [
+          -1,
+          -2
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": [
+        true,
+        false
+      ]
+    }
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          -1,
+          -2,
+          -3
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": [
+        true,
+        false,
+        false
+      ]
+    }
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          -1,
+          -2
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          -1,
+          -1,
+          -1
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": []
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          1,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          1,
+          -1,
+          2
+        ],
+        [
+          -2,
+          3
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          3
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          -2,
+          4,
+          -1
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          -4
+        ],
+        [
+          -1,
+          4,
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    "seed": 0
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          -2
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 1
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false
+      ]
+    },
+    "seed": 2
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -2
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 3
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 4
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -3,
+          -1,
+          -2
+        ],
+        [
+          3
+        ],
+        [
+          -4
+        ],
+        [
+          -2,
+          1,
+          3
+        ],
+        [
+          -4
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "seed": 5
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -3,
+          -1
+        ],
+        [
+          5,
+          4,
+          -3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 6
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          -3,
+          -1
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true,
+        false
+      ]
+    },
+    "seed": 7
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -1,
+          -2
+        ],
+        [
+          -1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true
+      ]
+    },
+    "seed": 8
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          -3,
+          -1
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -1,
+          3,
+          2
+        ],
+        [
+          -2
+        ],
+        [
+          -1
+        ],
+        [
+          -1,
+          3,
+          -2
+        ],
+        [
+          -2,
+          3,
+          -4
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          1,
+          2,
+          -4
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 9
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -4,
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 10
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          -4,
+          -3
+        ],
+        [
+          -4,
+          3,
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          -4,
+          -2,
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          1,
+          -2,
+          -3
+        ],
+        [
+          -3,
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          -3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 11
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          -3,
+          1,
+          2
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          -2,
+          4,
+          -3
+        ],
+        [
+          -2
+        ],
+        [
+          -3,
+          -4,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 12
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          -3,
+          -1,
+          -2
+        ],
+        [
+          -1
+        ],
+        [
+          -2,
+          -1,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          -3,
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 13
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 14
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false
+      ]
+    },
+    "seed": 15
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          -2,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          -3
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3
+        ],
+        [
+          -1
+        ],
+        [
+          -2,
+          3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 16
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -3,
+          5
+        ],
+        [
+          -1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          -5
+        ],
+        [
+          -2
+        ],
+        [
+          -5,
+          -2,
+          4
+        ],
+        [
+          -1,
+          4
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "seed": 17
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        true,
+        false
+      ]
+    },
+    "seed": 18
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          1,
+          5,
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "seed": 19
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          6,
+          -1
+        ],
+        [
+          4
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "seed": 20
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -2,
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 21
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ],
+        [
+          -1,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false
+      ]
+    },
+    "seed": 22
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          3
+        ],
+        [
+          -2,
+          -3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        true
+      ]
+    },
+    "seed": 23
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          -2,
+          -6,
+          -5
+        ],
+        [
+          2,
+          3,
+          -1
+        ],
+        [
+          -5
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6
+        ],
+        [
+          -2,
+          3,
+          -5
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    "seed": 24
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "seed": 25
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          -2,
+          4,
+          -1
+        ],
+        [
+          6,
+          -5,
+          2
+        ],
+        [
+          -2,
+          -1,
+          -6
+        ],
+        [
+          -4,
+          -6,
+          -3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 26
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          -3,
+          -6,
+          2
+        ],
+        [
+          3,
+          -6,
+          -5
+        ],
+        [
+          -4
+        ],
+        [
+          6,
+          5,
+          -1
+        ],
+        [
+          4,
+          3,
+          -1
+        ],
+        [
+          -3,
+          -5,
+          2
+        ],
+        [
+          -6,
+          -1
+        ],
+        [
+          6,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 27
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 28
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -5,
+          3
+        ],
+        [
+          -4,
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 29
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -1,
+          2,
+          4
+        ],
+        [
+          -2,
+          -1,
+          -5
+        ],
+        [
+          2
+        ],
+        [
+          -3,
+          -1,
+          2
+        ],
+        [
+          5,
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 30
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 31
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 32
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -2,
+          3,
+          5
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          -5,
+          4
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "seed": 33
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          1,
+          2,
+          -5
+        ],
+        [
+          -3,
+          -5
+        ],
+        [
+          3
+        ],
+        [
+          -1,
+          -2,
+          3
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          3,
+          -5,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "seed": 34
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -3
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -3,
+          -1,
+          -2
+        ],
+        [
+          -4,
+          3,
+          5
+        ],
+        [
+          -1
+        ],
+        [
+          1,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 35
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 36
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          -5
+        ],
+        [
+          3,
+          4,
+          1
+        ],
+        [
+          -4,
+          -6,
+          2
+        ],
+        [
+          5
+        ],
+        [
+          6,
+          -4
+        ],
+        [
+          -5,
+          -2,
+          -4
+        ],
+        [
+          -5,
+          -3,
+          1
+        ],
+        [
+          -5,
+          -2
+        ],
+        [
+          6
+        ],
+        [
+          -2,
+          5,
+          3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 37
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          -6,
+          1
+        ],
+        [
+          -4,
+          3,
+          1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          4,
+          -2,
+          1
+        ],
+        [
+          2,
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    "seed": 38
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -1,
+          2
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          -2
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 39
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          -1,
+          -4,
+          2
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          -2,
+          -3,
+          4
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          -4
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 40
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          2
+        ],
+        [
+          3,
+          -4,
+          -2
+        ],
+        [
+          -1,
+          2,
+          -4
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "seed": 41
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          6
+        ],
+        [
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    "seed": 42
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 43
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          -1,
+          4,
+          -2
+        ],
+        [
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          4,
+          3,
+          -2
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          1,
+          3,
+          -4
+        ],
+        [
+          3,
+          -1,
+          2
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          2,
+          -1,
+          3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 44
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          2,
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -2
+        ],
+        [
+          -1,
+          -3,
+          2
+        ],
+        [
+          3
+        ],
+        [
+          -3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 45
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 46
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          -3,
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true,
+        false
+      ]
+    },
+    "seed": 47
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          5
+        ],
+        [
+          -2,
+          -4,
+          1
+        ],
+        [
+          -2,
+          5,
+          -3
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          2,
+          5,
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    "seed": 48
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 49
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          2,
+          3
+        ],
+        [
+          -3
+        ],
+        [
+          -1,
+          4,
+          2
+        ],
+        [
+          -2
+        ],
+        [
+          -4,
+          -3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 50
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -2
+        ],
+        [
+          2,
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 51
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          3,
+          -2,
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 52
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          5,
+          4
+        ],
+        [
+          1,
+          -5,
+          4
+        ],
+        [
+          1,
+          -2,
+          5
+        ],
+        [
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "seed": 53
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          2,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 54
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          5,
+          -3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 56
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 57
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          -5,
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        true,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    "seed": 58
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          1,
+          -2
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        true,
+        true
+      ]
+    },
+    "seed": 59
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          -1
+        ],
+        [
+          -2
+        ],
+        [
+          -3
+        ],
+        [
+          -3,
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 60
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          2,
+          -4,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          -2,
+          -4
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    "seed": 61
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          2
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          -3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 62
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          -3,
+          2
+        ],
+        [
+          1,
+          -4,
+          3
+        ],
+        [
+          1,
+          -4,
+          3
+        ],
+        [
+          -1,
+          4,
+          3
+        ],
+        [
+          -3,
+          -2,
+          -1
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          1,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 63
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          -4,
+          3,
+          -1
+        ],
+        [
+          2,
+          -1,
+          -4
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 64
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          2,
+          4
+        ],
+        [
+          -3,
+          -4,
+          2
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    "seed": 65
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 66
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        true
+      ]
+    },
+    "seed": 67
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          -6,
+          5,
+          1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          -5
+        ],
+        [
+          5
+        ],
+        [
+          -3
+        ],
+        [
+          -5
+        ],
+        [
+          -2
+        ],
+        [
+          -4,
+          -6,
+          -5
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 68
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 69
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 70
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          -1,
+          2,
+          -3
+        ],
+        [
+          -3
+        ],
+        [
+          1,
+          -3,
+          2
+        ],
+        [
+          -1,
+          3,
+          -2
+        ],
+        [
+          2
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 71
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 72
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          3,
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 73
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -3
+        ],
+        [
+          2,
+          -5
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -4
+        ],
+        [
+          4,
+          2,
+          -5
+        ],
+        [
+          -2,
+          -5,
+          3
+        ],
+        [
+          -1
+        ],
+        [
+          1,
+          4,
+          -3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 74
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          4,
+          1
+        ],
+        [
+          -3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          -2,
+          1,
+          3
+        ],
+        [
+          2,
+          -4,
+          -1
+        ],
+        [
+          3
+        ],
+        [
+          -1
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          -4,
+          -2,
+          3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 75
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          -1,
+          2
+        ],
+        [
+          2
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          2,
+          3,
+          -1
+        ],
+        [
+          3
+        ],
+        [
+          -1
+        ],
+        [
+          -3,
+          -1,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 76
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          -3,
+          1,
+          -2
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          -1,
+          -3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 77
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -2,
+          -1
+        ],
+        [
+          1,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false
+      ]
+    },
+    "seed": 78
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -1,
+          2
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          -2
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 79
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          3,
+          2,
+          1
+        ],
+        [
+          3
+        ],
+        [
+          -3
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 80
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          5,
+          -4
+        ],
+        [
+          2
+        ],
+        [
+          5,
+          1,
+          -2
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          5,
+          -2,
+          3
+        ],
+        [
+          -4
+        ],
+        [
+          4,
+          1,
+          3
+        ],
+        [
+          -3,
+          -5
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    "seed": 81
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          1,
+          -2
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 82
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          2,
+          -4,
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          -4,
+          3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 83
+  },
+  {
+    "source": {
+      "num_vars": 6,
+      "clauses": [
+        [
+          -4
+        ],
+        [
+          6,
+          3,
+          2
+        ],
+        [
+          2,
+          5,
+          3
+        ],
+        [
+          -2,
+          -6,
+          -4
+        ],
+        [
+          4
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 84
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          2
+        ],
+        [
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          -2
+        ],
+        [
+          -2
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 85
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 86
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          1,
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 87
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          -2,
+          -3
+        ],
+        [
+          -4,
+          -1
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          -4,
+          -1,
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "seed": 88
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 89
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true
+      ]
+    },
+    "seed": 90
+  },
+  {
+    "source": {
+      "num_vars": 1,
+      "clauses": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          -1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 91
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          3,
+          -4,
+          -1
+        ],
+        [
+          -3,
+          -1,
+          -4
+        ],
+        [
+          2,
+          -3,
+          -4
+        ],
+        [
+          2,
+          4,
+          1
+        ],
+        [
+          -3
+        ],
+        [
+          -2,
+          -1,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          -3,
+          -4
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    "seed": 92
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          3,
+          -1,
+          -4
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          -3,
+          -2,
+          -1
+        ],
+        [
+          4,
+          1,
+          -2
+        ],
+        [
+          -1,
+          -4
+        ],
+        [
+          1,
+          -4,
+          -3
+        ],
+        [
+          -2,
+          3,
+          4
+        ],
+        [
+          -1,
+          -2,
+          -3
+        ],
+        [
+          -3,
+          -4,
+          2
+        ],
+        [
+          -1,
+          2,
+          -4
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 93
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          -5,
+          3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    "seed": 94
+  },
+  {
+    "source": {
+      "num_vars": 5,
+      "clauses": [
+        [
+          -5,
+          -2,
+          -4
+        ],
+        [
+          -1,
+          -3,
+          -5
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          -2,
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          -2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 95
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          2,
+          -1,
+          -3
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          3,
+          1
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 96
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          -1,
+          -2
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ],
+        [
+          -1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 97
+  },
+  {
+    "source": {
+      "num_vars": 3,
+      "clauses": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          -3,
+          1,
+          -2
+        ],
+        [
+          -3,
+          2,
+          1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          -3
+        ],
+        [
+          2,
+          -1,
+          3
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          2
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        true,
+        false
+      ]
+    },
+    "seed": 98
+  },
+  {
+    "source": {
+      "num_vars": 4,
+      "clauses": [
+        [
+          -2
+        ],
+        [
+          -2
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -4
+        ],
+        [
+          -4,
+          -3
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          1,
+          -2,
+          3
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "assignment": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "seed": 99
+  },
+  {
+    "source": {
+      "num_vars": 2,
+      "clauses": [
+        [
+          1,
+          2
+        ],
+        [
+          -1
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -2
+        ],
+        [
+          -1
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 100
+  }
+]

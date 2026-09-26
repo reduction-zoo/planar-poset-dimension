@@ -1,14 +1,12 @@
 # 3-SAT → Dimension of a poset with a planar diagram campaign state
 
-Status: Prepare pending. No reduction or solution is claimed.
+Status: Prepare complete on the finite domain; no reduction or solution is claimed.
 
-Scope: establish the independent testing foundation only.
+Scope: independent testing foundation only. Round budget: 0 construction rounds authorized in this setup task.
 
-Round budget: 0 construction rounds authorized in this setup task.
+Capability probe: CPython 3.12.14, locked `z3-solver` 4.16.0.0. Rational diagram validation and dimension encoding passed direct witness validation and finite exhaustive crosschecks. See [preparation.md](work/preparation.md).
 
-Capability probe: pending. Record dated versions and availability before Prepare.
-
-Next action: read the fixed question, then complete `.agents/skills/research-prepare/SKILL.md` and commit its corpus, oracles, checks and limitations.
+Next action: construct and review a reduction under the [contract](work/contract.md) in a later research campaign. The 120 source cases are fixed before construction.
 
 | ID | Attempted mechanism or literature scope | First check | Outcome | Evidence |
 |---|---|---|---|---|
