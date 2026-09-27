@@ -2,7 +2,7 @@
 
 Status: Prepare complete on the finite domain; no reduction or solution is claimed.
 
-Scope: independent testing foundation only. Round budget: 0 construction rounds authorized in this setup task.
+Initial setup: this pass built the testing foundation and ran no construction rounds. Future work follows the current user's scope and pipeline.
 
 Capability probe: CPython 3.12.14, locked `z3-solver` 4.16.0.0. Rational diagram validation and dimension encoding passed direct witness validation and finite exhaustive crosschecks. See [preparation.md](work/preparation.md).
 
